@@ -1,0 +1,25 @@
+spring.application.name=MOCAI
+
+logging.level.root=warn
+spring.main.banner-mode=off
+
+spring.datasource.url=jdbc:mysql://localhost:3306/mocai
+spring.datasource.username=root
+spring.datasource.password=root
+
+spring.security.user.username=root
+spring.security.user.password=root
+
+# just putting in their for the dev
+jwt.secret=kebF4y3D/aKJsQ9SFeXa1jd5d2My0uimBKQQi3fT6N22VZd6Ffr3LIyLd9ByyVNCqmYPfUKJ6CUZu434jjR9aw==
+aes.key=aYLPNxXJ8hX+x3NCr7ZqPMb4+4PqBwbv+GU21+ZTtLo=
+
+# hibernate settings
+spring.jpa.hibernate.ddl-auto=update
+
+frontend.url=http://localhost:5173
+
+# oauth2.0 credentials
+spring.security.oauth2.client.registration.google.client-id=163660676629-qkffgjar448ocbrk7ilcfnekommja161.apps.googleusercontent.com
+spring.security.oauth2.client.registration.google.client-secret=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
+spring.security.oauth2.client.registration.google.scope=openid,profile,email
